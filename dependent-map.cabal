@@ -35,6 +35,7 @@ Library
   ghc-options:          -fwarn-unused-imports -fwarn-unused-binds
   exposed-modules:      Data.Dependent.Map,
                         Data.Dependent.Map.Lens,
+                        Data.Dependent.Map.Identity,
                         Data.Dependent.Map.Internal
   other-modules:        Data.Dependent.Map.PtrEquality
   build-depends:        base >= 3 && < 5,
